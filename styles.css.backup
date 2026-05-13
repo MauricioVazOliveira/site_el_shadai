@@ -39,7 +39,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px clamp(12px, 4vw, 64px);
+  padding: 14px clamp(18px, 4vw, 64px);
   background: transparent;
   border-bottom: none;
   backdrop-filter: none;
@@ -51,7 +51,7 @@ a {
 }
 
 .brand-logo {
-  width: clamp(60px, 12vw, 94px);
+  width: 94px;
   height: auto;
   display: block;
 }
@@ -76,13 +76,12 @@ a {
 }
 
 .nav-cta {
-  padding: 10px 18px;
+  padding: 12px 22px;
   border: 1px solid var(--accent);
   border-radius: 999px;
   color: var(--dark) !important;
   background: var(--accent);
   opacity: 1 !important;
-  font-size: clamp(12px, 2vw, 14px);
 }
 
 .nav-cta:hover {
@@ -111,7 +110,7 @@ a {
 
 .hero {
   position: relative;
-  min-height: 100vh;
+  min-height: 94vh;
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -149,7 +148,6 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center;
   opacity: 0.55;
   z-index: 1;
 }
@@ -157,25 +155,25 @@ a {
 .hero-content {
   position: relative;
   z-index: 2;
-  width: min(980px, 90%);
-  padding: clamp(60px, 10vh, 120px) 20px clamp(30px, 5vh, 60px);
+  width: min(980px, 92%);
+  padding: 160px 0 90px;
   text-align: center;
   margin: 0 auto;
 }
 
 .eyebrow {
-  margin: 0 0 clamp(8px, 2vw, 16px);
+  margin: 0 0 16px;
   color: var(--accent);
-  font-size: clamp(10px, 2.5vw, 12px);
+  font-size: 12px;
   font-weight: 900;
   letter-spacing: 0.22em;
   text-transform: uppercase;
 }
 
 .hero h1 {
-  margin: 0 0 clamp(12px, 3vw, 24px);
-  font-size: clamp(28px, 6vw, 80px);
-  line-height: 1.15;
+  margin: 0 0 24px;
+  font-size: clamp(48px, 7vw, 80px);
+  line-height: 0.9;
   letter-spacing: -0.08em;
   font-weight: 900;
 }
@@ -185,7 +183,7 @@ a {
   max-width: 680px;
   margin: 0 auto 34px;
   color: rgba(227, 227, 227, 0.82);
-  font-size: clamp(16px, 2.4vw, 26px);
+  font-size: clamp(18px, 2.4vw, 26px);
   line-height: 1.45;
   font-weight: 500;
 }
@@ -195,18 +193,17 @@ a {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 14px;
 }
 
 .btn {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  min-height: clamp(40px, 10vw, 52px);
-  padding: clamp(8px, 2vw, 15px) clamp(16px, 4vw, 26px);
+  min-height: 52px;
+  padding: 15px 26px;
   border-radius: 999px;
   font-weight: 900;
-  font-size: clamp(11px, 2vw, 14px);
   transition: transform 0.2s ease, background 0.2s ease, color 0.2s ease;
 }
 
@@ -293,7 +290,7 @@ a {
 
 .section h2 {
   margin: 0 0 24px;
-  font-size: clamp(28px, 5vw, 72px);
+  font-size: clamp(36px, 5vw, 72px);
   line-height: 0.98;
   letter-spacing: -0.07em;
   font-weight: 900;
@@ -301,7 +298,7 @@ a {
 
 .section p {
   color: rgba(227, 227, 227, 0.72);
-  font-size: clamp(14px, 2vw, 18px);
+  font-size: 18px;
   line-height: 1.7;
 }
 
@@ -316,7 +313,6 @@ a {
 .check-list li {
   color: var(--white);
   font-weight: 800;
-  font-size: clamp(14px, 2vw, 16px);
 }
 
 .check-list li::before {
@@ -390,7 +386,7 @@ a {
   width: max-content;
   white-space: nowrap;
   animation: scroll 24s linear infinite;
-  font-size: clamp(18px, 4vw, 54px);
+  font-size: clamp(26px, 4vw, 54px);
   font-weight: 900;
   letter-spacing: -0.06em;
 }
@@ -403,7 +399,7 @@ a {
 .video-card {
   display: grid;
   place-items: center;
-  height: clamp(300px, 50vw, 420px);
+  height: 420px;
   border: 1px solid rgba(242, 161, 91, 0.18);
   border-radius: 38px;
   background:
@@ -414,14 +410,14 @@ a {
 }
 
 .play-button {
-  width: clamp(60px, 12vw, 88px);
-  height: clamp(60px, 12vw, 88px);
+  width: 88px;
+  height: 88px;
   border: 0;
   border-radius: 50%;
   background: var(--accent);
   color: var(--dark);
   box-shadow: var(--shadow);
-  font-size: clamp(20px, 4vw, 30px);
+  font-size: 30px;
   cursor: pointer;
 }
 
@@ -476,7 +472,7 @@ a {
 
 .event-body h3 {
   margin: 0 0 18px;
-  font-size: clamp(18px, 3vw, 26px);
+  font-size: 26px;
   letter-spacing: -0.05em;
 }
 
@@ -500,7 +496,7 @@ a {
   border-radius: 38px;
   color: var(--white);
   box-shadow: var(--shadow);
-  font-size: clamp(28px, 5vw, 44px);
+  font-size: 44px;
   font-weight: 900;
   letter-spacing: -0.07em;
 }
@@ -534,7 +530,6 @@ a {
 
 .visit-details p {
   margin: 0 0 14px;
-  font-size: clamp(14px, 2vw, 16px);
 }
 
 .visit-details strong {
@@ -542,7 +537,7 @@ a {
 }
 
 .site-footer {
-  padding: clamp(35px, 8vh, 58px) clamp(16px, 5vw, 70px);
+  padding: 58px clamp(22px, 5vw, 70px) 28px;
   border-top: 1px solid rgba(227, 227, 227, 0.08);
   background: #151515;
   color: var(--white);
@@ -556,7 +551,7 @@ a {
 }
 
 .footer-logo {
-  width: clamp(80px, 15vw, 120px);
+  width: 120px;
   height: auto;
 }
 
@@ -564,7 +559,6 @@ a {
   max-width: 420px;
   color: rgba(227, 227, 227, 0.72);
   line-height: 1.6;
-  font-size: clamp(13px, 2vw, 16px);
 }
 
 .footer-links {
@@ -581,12 +575,10 @@ a {
 .footer-links h4 {
   margin: 0 0 8px;
   color: var(--accent);
-  font-size: clamp(12px, 2vw, 14px);
 }
 
 .footer-links a {
   color: rgba(227, 227, 227, 0.78);
-  font-size: clamp(12px, 2vw, 14px);
 }
 
 .footer-links a:hover {
@@ -598,22 +590,11 @@ a {
   padding-top: 22px;
   border-top: 1px solid rgba(227, 227, 227, 0.1);
   color: rgba(227, 227, 227, 0.58);
-  font-size: clamp(11px, 1.8vw, 13px);
-}
-
-@media (max-width: 1024px) {
-  .section {
-    padding: 70px 0;
-  }
-
-  .quick-links {
-    margin-top: -60px;
-  }
 }
 
 @media (max-width: 900px) {
   .brand-logo {
-    width: clamp(60px, 10vw, 82px);
+    width: 82px;
   }
 
   .menu-toggle {
@@ -650,8 +631,16 @@ a {
     grid-template-columns: 1fr;
   }
 
+  .quick-links {
+    margin-top: -52px;
+  }
+
+  .hero h1 {
+    font-size: 64px;
+  }
+
   .section {
-    padding: 60px 0;
+    padding: 62px 0;
   }
 
   .caption-card {
@@ -668,162 +657,43 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  .hero {
-    min-height: 85vh;
-  }
-
-  .hero-content {
-    padding: clamp(50px, 8vh, 90px) 16px clamp(25px, 4vh, 50px);
-  }
-
-  .quick-links {
-    margin-top: -50px;
-    gap: 12px;
-  }
-
-  .quick-links a {
-    padding: 20px;
-  }
-
-  .quick-links strong {
-    font-size: 18px;
-  }
-
-  .video-card {
-    height: clamp(250px, 40vw, 350px);
-  }
-
-  .ministry-card {
-    height: clamp(250px, 50vw, 320px);
-  }
-
-  .image-card {
-    min-height: clamp(300px, 50vw, 520px);
-  }
-
-  .photo-one {
-    height: clamp(300px, 50vw, 520px);
-  }
-}
-
-@media (max-width: 600px) {
+@media (max-width: 520px) {
   .site-header {
-    padding: 10px 12px;
+    padding: 12px 16px;
   }
 
   .brand-logo {
-    width: clamp(50px, 8vw, 70px);
-  }
-
-  .hero {
-    min-height: 100vh;
+    width: 74px;
   }
 
   .hero-content {
-    padding: clamp(40px, 6vh, 70px) 12px clamp(20px, 3vh, 40px);
+    padding-top: 140px;
   }
 
   .hero h1 {
-    font-size: clamp(24px, 5vw, 40px);
-  }
-
-  .eyebrow {
-    font-size: clamp(9px, 2vw, 11px);
-  }
-
-  .btn {
-    min-height: 38px;
-    padding: 6px 14px;
-    font-size: clamp(10px, 1.8vw, 12px);
-  }
-
-  .hero-video {
-    opacity: 0.65;
-  }
-
-  .quick-links {
-    grid-template-columns: 1fr;
-    margin-top: -40px;
-    gap: 12px;
-  }
-
-  .quick-links a {
-    padding: 18px;
-  }
-
-  .quick-links span {
-    font-size: 11px;
-  }
-
-  .quick-links strong {
-    font-size: 16px;
-  }
-
-  .quick-links small {
-    font-size: 12px;
+    font-size: 54px;
   }
 
   .section h2 {
-    font-size: clamp(22px, 4vw, 36px);
+    font-size: 40px;
   }
 
-  .event-grid {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .event-image {
-    height: 180px;
-  }
-
-  .split-cards {
-    grid-template-columns: 1fr;
-  }
-
-  .visit {
-    margin-bottom: 50px;
-    padding: 24px 16px;
-  }
-
+  .quick-links a,
+  .event-body,
   .visit-details {
-    padding: 16px;
-  }
-
-  .footer-links {
-    grid-template-columns: 1fr;
-    gap: 16px;
-  }
-
-  .section {
-    padding: 50px 0;
+    padding: 22px;
   }
 }
 
-@media (max-width: 400px) {
-  .hero h1 {
-    font-size: clamp(20px, 4.5vw, 32px);
-  }
-
-  .btn {
-    width: 100%;
-    min-height: 36px;
-    padding: 10px;
-  }
-
-  .hero-actions {
-    gap: 8px;
-  }
-
-  .quick-links a {
-    padding: 14px;
-  }
-
-  .event-card {
-    border-radius: 20px;
-  }
-
-  .visit {
-    border-radius: 24px;
-  }
-}
+ 
+ . h e r o - v i d e o   { 
+     p o s i t i o n :   a b s o l u t e ; 
+     t o p :   0 ; 
+     l e f t :   0 ; 
+     w i d t h :   1 0 0 % ; 
+     h e i g h t :   1 0 0 % ; 
+     o b j e c t - f i t :   c o v e r ; 
+     o p a c i t y :   0 . 4 ; 
+ } 
+ 
+ 
