@@ -728,7 +728,7 @@ a {
   }
 
   .hero h1 {
-    font-size: clamp(24px, 5vw, 40px);
+    font-size: clamp(38px, 9vw, 60px);
   }
 
   .eyebrow {
