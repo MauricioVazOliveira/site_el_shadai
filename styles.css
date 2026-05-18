@@ -178,7 +178,7 @@ a {
   font-size: clamp(32px, 7vw, 90px);
   line-height: 1.15;
   letter-spacing: -0.08em;
-  font-weight: 500;
+  font-weight: 700;
   text-align: left;
 }
 
@@ -806,6 +806,7 @@ a {
 @media (max-width: 400px) {
   .hero h1 {
     font-size: clamp(48px, 14vw, 75px);
+    margin-left: clamp(20px, 8vw, 80px);
   }
 
   .btn {
